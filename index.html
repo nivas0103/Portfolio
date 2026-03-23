@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Shubham Raj - B.Tech CSE (Data Science) student portfolio featuring projects, skills, certifications, and contact details."
+    />
+    <title>Shubham Raj | Developer Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-grid"></div>
+    <div class="bg-drift"></div>
+    <div class="bg-particles" id="bgParticles" aria-hidden="true"></div>
+
+    <header class="site-header" id="top">
+      <nav class="navbar container">
+        <a href="#top" class="brand">Shubham Raj</a>
+
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle Navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certifications">Certificates</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle Theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section container" id="hero">
+        <div class="hero-content reveal">
+          <p class="hero-kicker">B.Tech CSE (Data Science) Student</p>
+          <h1>Shubham Raj</h1>
+          <p class="hero-role">
+            Aspiring
+            <span id="typingText" class="typing-text"></span>
+          </p>
+          <p class="hero-desc">
+            I build practical software and data-driven solutions with a strong focus on clean logic,
+            actionable insights, and measurable outcomes.
+          </p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-secondary" href="ShubhamRajnew.docx" download>Download CV</a>
+          </div>
+          <div class="socials">
+            <a href="https://github.com/nivas0103" target="_blank" rel="noreferrer" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://linkedin.com/in/shubham-raj" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </div>
+
+          <div class="hero-stats-row">
+            <div class="stat-card glass">
+              <h3 data-count="3">3</h3>
+              <p>Project Builds</p>
+            </div>
+            <div class="stat-card glass">
+              <h3 data-count="7.25">7.25</h3>
+              <p>Current CGPA</p>
+            </div>
+            <div class="stat-card glass">
+              <h3>2023 - 2027</h3>
+              <p>B.Tech CSE, LPU</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-panel reveal" data-delay="120">
+          <div class="photo-card">
+            <div class="photo-frame">
+              <img src="11a6468b-998a-4024-8d63-7db783540b9f.jpg" alt="Shubham Raj profile" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="about">
+        <div class="section-head reveal">
+          <p class="tag">About</p>
+          <h2>Data-focused, solution-oriented developer.</h2>
+        </div>
+        <div class="about-card glass reveal" data-delay="80">
+          <p>
+            I am a 3rd-year Computer Science student specializing in Data Science with strong foundations
+            in programming and analysis. I have hands-on experience building projects in Python and C++,
+            and creating dashboards that turn raw data into clear business insights. My focus is to solve
+            real problems using structured thinking, robust code, and continuous learning.
+          </p>
+          <div class="about-meta">
+            <span><i class="fa-solid fa-location-dot"></i> India</span>
+            <span><i class="fa-solid fa-graduation-cap"></i> Lovely Professional University</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="skills">
+        <div class="section-head reveal">
+          <p class="tag">Skills</p>
+          <h2>Technical stack and core strengths.</h2>
+        </div>
+        <div class="grid skill-grid">
+          <article class="card glass reveal" data-delay="40">
+            <h3><i class="fa-solid fa-code"></i> Languages</h3>
+            <ul>
+              <li class="lang-item">
+                <span>Python</span>
+                <img
+                  class="lang-logo"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                  alt="Python logo"
+                  loading="lazy"
+                />
+              </li>
+              <li class="lang-item">
+                <span>C</span>
+                <img
+                  class="lang-logo"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+                  alt="C logo"
+                  loading="lazy"
+                />
+              </li>
+              <li class="lang-item">
+                <span>C++</span>
+                <img
+                  class="lang-logo"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                  alt="C++ logo"
+                  loading="lazy"
+                />
+              </li>
+              <li class="lang-item">
+                <span>Java</span>
+                <img
+                  class="lang-logo"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                  alt="Java logo"
+                  loading="lazy"
+                />
+              </li>
+            </ul>
+          </article>
+          <article class="card glass reveal" data-delay="80">
+            <h3><i class="fa-solid fa-cubes"></i> Libraries / Frameworks</h3>
+            <ul>
+              <li class="lang-item">
+                <span>NumPy</span>
+                <img
+                  class="lang-logo"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+                  alt="NumPy logo"
+                  loading="lazy"
+                />
+              </li>
+              <li class="lang-item">
+                <span>Pandas</span>
+                <img
+                  class="lang-logo"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"
+                  alt="Pandas logo"
+                  loading="lazy"
+                />
+              </li>
+              <li class="lang-item">
+                <span>Matplotlib</span>
+                <img
+                  class="lang-logo"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg"
+                  alt="Matplotlib logo"
+                  loading="lazy"
+                />
+              </li>
+              <li class="lang-item">
+                <span>Seaborn</span>
+                <img
+                  class="lang-logo"
+                  src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg"
+                  alt="Seaborn logo"
+                  loading="lazy"
+                />
+              </li>
+            </ul>
+          </article>
+          <article class="card glass reveal" data-delay="120">
+            <h3><i class="fa-solid fa-screwdriver-wrench"></i> Tools</h3>
+            <ul>
+              <li class="lang-item">
+                <span>Jupyter Notebook</span>
+                <img
+                  class="lang-logo"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg"
+                  alt="Jupyter logo"
+                  loading="lazy"
+                />
+              </li>
+              <li class="lang-item">
+                <span>VS Code</span>
+                <img
+                  class="lang-logo"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+                  alt="VS Code logo"
+                  loading="lazy"
+                />
+              </li>
+              <li class="lang-item">
+                <span>Excel</span>
+                <img
+                  class="lang-logo"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg/512px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png"
+                  alt="Microsoft Excel logo"
+                  loading="lazy"
+                />
+              </li>
+              <li class="lang-item">
+                <span>Power BI</span>
+                <img
+                  class="lang-logo"
+                  src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg"
+                  alt="Power BI logo"
+                  loading="lazy"
+                />
+              </li>
+            </ul>
+          </article>
+          <article class="card glass reveal" data-delay="160">
+            <h3><i class="fa-solid fa-users"></i> Soft Skills</h3>
+            <ul>
+              <li>Problem Solving</li>
+              <li>Teamwork</li>
+              <li>Adaptability</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container" id="projects">
+        <div class="section-head reveal">
+          <p class="tag">Projects</p>
+          <h2>Work that reflects engineering and analysis ability.</h2>
+        </div>
+        <div class="grid project-grid">
+          <article class="project-card glass reveal" data-delay="40">
+            <h3>Ticket Booking System</h3>
+            <p class="project-type">C++ | OOP | DSA</p>
+            <p>
+              Built a class-based booking platform using queue data structures with booking,
+              cancellation, dynamic pricing, and real-time status updates.
+            </p>
+            <a href="https://github.com/nivas0103" target="_blank" rel="noreferrer">View on GitHub</a>
+          </article>
+          <article class="project-card glass reveal" data-delay="90">
+            <h3>Zomato Data Analysis Dashboard</h3>
+            <p class="project-type">Excel | EDA | Dashboarding</p>
+            <p>
+              Performed data cleaning and exploratory analysis, then built an interactive dashboard with
+              pivot tables, slicers, and KPI tracking to uncover cuisine and rating trends.
+            </p>
+            <a href="https://github.com/nivas0103" target="_blank" rel="noreferrer">View on GitHub</a>
+          </article>
+          <article class="project-card glass reveal" data-delay="140">
+            <h3>Super Store Sales Dashboard</h3>
+            <p class="project-type">Power BI | DAX | Forecasting</p>
+            <p>
+              Created a performance dashboard for sales and profit analysis using Power Query and DAX,
+              including regional comparisons, KPI insights, and forecast views.
+            </p>
+            <a href="https://github.com/nivas0103" target="_blank" rel="noreferrer">View on GitHub</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container" id="certifications">
+        <div class="section-head reveal">
+          <p class="tag">Certifications</p>
+          <h2>Validated learning and upskilling.</h2>
+        </div>
+        <div class="grid cert-grid">
+          <article class="card glass reveal" data-delay="40">
+            <h3>Build Generative AI Apps and Solutions with No-Code Tools</h3>
+            <p>Certificate</p>
+            <a href="https://github.com/nivas0103/Certificates/blob/main/Build%20Generative%20AI%20Apps%20and%20Solutions%20with%20No-Code%20Tools.pdf" target="_blank" rel="noreferrer">Open Certificate</a>
+          </article>
+          <article class="card glass reveal" data-delay="80">
+            <h3>ChatGPT-4 Prompt Engineering, ChatGPT, Generative AI and LLM</h3>
+            <p>Certificate</p>
+            <a href="https://github.com/nivas0103/Certificates/blob/main/ChatGPT-4%20Prompt%20Engineering%20ChatGPT%2C%20Generative%20AI%20%26%20LLM.pdf" target="_blank" rel="noreferrer">Open Certificate</a>
+          </article>
+          <article class="card glass reveal" data-delay="120">
+            <h3>Computational Theory Language Principle and Finite Automata Theory</h3>
+            <p>Certificate</p>
+            <a href="https://github.com/nivas0103/Certificates/blob/main/Computational%20Theory%20Language%20Principle%20%26%20Finite%20Automata%20Theory.pdf" target="_blank" rel="noreferrer">Open Certificate</a>
+          </article>
+          <article class="card glass reveal" data-delay="160">
+            <h3>Master Generative AI and Generative AI Tools (ChatGPT and more)</h3>
+            <p>Certificate</p>
+            <a href="https://github.com/nivas0103/Certificates/blob/main/Master%20Generative%20AI%20%26%20Generative%20AI%20tools%20%28ChatGPT%20%26%20more%29.pdf" target="_blank" rel="noreferrer">Open Certificate</a>
+          </article>
+          <article class="card glass reveal" data-delay="200">
+            <h3>Master Your Anxiety</h3>
+            <p>Certificate</p>
+            <a href="https://github.com/nivas0103/Certificates/blob/main/Master%20Your%20Anxiety.pdf" target="_blank" rel="noreferrer">Open Certificate</a>
+          </article>
+          <article class="card glass reveal" data-delay="240">
+            <h3>Summer Training Certificate</h3>
+            <p>Certificate</p>
+            <a href="https://github.com/nivas0103/Certificates/blob/main/Summer_Training_Certificat.pdf" target="_blank" rel="noreferrer">Open Certificate</a>
+          </article>
+          <article class="card glass reveal" data-delay="320">
+            <h3>Python 100 Certificate</h3>
+            <p>Certificate</p>
+            <a href="https://github.com/nivas0103/Certificates/blob/main/python_100.pdf" target="_blank" rel="noreferrer">Open Certificate</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container" id="achievements">
+        <div class="section-head reveal">
+          <p class="tag">Achievements</p>
+          <h2>Performance beyond the classroom.</h2>
+        </div>
+        <article class="highlight glass reveal" data-delay="60">
+          <i class="fa-solid fa-medal"></i>
+          <div>
+            <h3>Bronze Medal - University Handball</h3>
+            <p>Demonstrated discipline, teamwork, and competitive focus at university level.</p>
+          </div>
+        </article>
+        <article class="highlight glass reveal" data-delay="100">
+          <i class="fa-solid fa-code"></i>
+          <div>
+            <h3>100+ LeetCode Problems Solved</h3>
+            <p>
+              Consistently solving algorithmic and data structure challenges.
+              <a href="https://leetcode.com/u/Raj_Shubham/" target="_blank" rel="noreferrer">View LeetCode Profile</a>
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section class="section container" id="education">
+        <div class="section-head reveal">
+          <p class="tag">Education</p>
+          <h2>Academic journey and progress.</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item glass reveal" data-delay="40">
+            <h3>B.Tech CSE (Data Science)</h3>
+            <p>Lovely Professional University | 2023 - 2027</p>
+            <span>CGPA: 7.25</span>
+          </article>
+          <article class="timeline-item glass reveal" data-delay="90">
+            <h3>Intermediate</h3>
+            <p>Completed with academic focus in core subjects.</p>
+            <span>Score: 70%</span>
+          </article>
+          <article class="timeline-item glass reveal" data-delay="140">
+            <h3>Matriculation</h3>
+            <p>Strong foundational schooling and discipline.</p>
+            <span>Score: 67%</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container" id="contact">
+        <div class="section-head reveal">
+          <p class="tag">Contact</p>
+          <h2>Let us build impactful solutions together.</h2>
+        </div>
+        <div class="contact-card glass reveal" data-delay="60">
+          <div class="contact-info-column">
+            <p>
+              Open to internships, project collaborations, and entry-level roles in data analysis and software development.
+            </p>
+            <div class="contact-links">
+              <a href="mailto:shubhamnivas72@gmail.com"><i class="fa-solid fa-envelope"></i> shubhamnivas72@gmail.com</a>
+              <a href="tel:+918434812111"><i class="fa-solid fa-phone"></i> +91 8434812111</a>
+              <a href="https://github.com/nivas0103" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i> github.com/nivas0103</a>
+              <a href="https://linkedin.com/in/shubham-raj" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin"></i> linkedin.com/in/shubham-raj</a>
+            </div>
+          </div>
+          <div class="contact-form-column">
+            <h3>Contact Us</h3>
+            <form class="contact-form" action="mailto:shubhamnivas72@gmail.com" method="post" enctype="text/plain">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required />
+
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="How can I help you?" required></textarea>
+
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Copyright <span id="year"></span> Shubham Raj. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
